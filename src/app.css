@@ -1,3 +1,32 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.link {
+  @apply text-primary;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.fc-event-title {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.fc-event {
+  height: auto;
+  @apply p-1;
+}
+
+.fc-h-event .fc-event-time {
+  overflow: visible;
+}
+
+.fc .fc-button-primary {
+  color: #fff;
+  background-color: #ff0000 !important;
+  border-color: #fff !important;
+}

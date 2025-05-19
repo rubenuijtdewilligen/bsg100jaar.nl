@@ -34,20 +34,23 @@
   />
 </svelte:head>
 
-<div class="rounded-xl bg-neutral text-neutral-content lg:mx-48">
+<div class="m-0 bg-neutral p-0 text-neutral-content md:mx-32 md:rounded-xl lg:mx-48">
   <!-- Header -->
   <div class="mx-auto flex max-w-5xl items-center justify-between p-4">
-    <a href="/"><img src="/logo_banner_lang.png" alt="BSG100jaar Logo" class="h-24" /></a>
+    <a href="/"><img src="/logo_banner_lang.png" alt="BSG100jaar Logo" class="max-h-24" /></a>
   </div>
 
-  <!-- Hero / Banner -->
+  <!-- Hero -->
   <section class="relative h-60 bg-cover bg-center" style="background-image: url('/header.png')">
     <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
-      <div class="flex space-x-4">
+      <div
+        class="grid grid-cols-2 gap-4 px-4 sm:grid-cols-2 md:flex md:flex-wrap md:justify-center"
+      >
         {#each data.pages as pageItem}
           <a
-            class="rounded-lg px-6 py-2 text-xl font-bold
-          {path === pageItem.path ? 'bg-yellow-400 text-black' : 'bg-red-600 text-white'}"
+            class="btn border-0 font-bold lg:btn-lg {path === pageItem.path
+              ? 'bg-yellow-400 text-black hover:bg-yellow-400'
+              : 'bg-red-600 text-white hover:bg-red-700'}"
             href={pageItem.path}
           >
             {pageItem.title}
@@ -62,6 +65,7 @@
     <slot></slot>
   </main>
 
+  <!-- Footer -->
   <div class="border-t-2 border-t-neutral-content py-2 text-center">
     © Brabants Studenten Gilde | 2025-heden |
     <a href="https://github.com/rubenuijtdewilligen/bsg100jaar.nl" class="link" target="_blank">

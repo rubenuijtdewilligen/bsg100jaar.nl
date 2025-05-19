@@ -1,5 +1,21 @@
 <script>
   import '../app.css';
+  import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
+  import { faArrowUpRightFromSquare, faLink } from '@fortawesome/free-solid-svg-icons';
+  import { config } from '@fortawesome/fontawesome-svg-core';
+  import '@fortawesome/fontawesome-svg-core/styles.css';
+  import { page } from '$app/stores';
+
+  config.autoAddCss = false;
+
+  export let data;
+
+  $: path = $page.url.pathname;
+  $: title =
+    data.pages
+      .filter((page) => path.startsWith(page.path))
+      .sort((a, b) => b.path.length - a.path.length)
+      ?.at(0)?.title + ' • BSG 100 jaar' || 'BSG 100 jaar';
 </script>
 
 <svelte:head>
@@ -18,4 +34,38 @@
   />
 </svelte:head>
 
-<slot></slot>
+<div class="rounded-xl bg-neutral text-neutral-content lg:mx-48">
+  <!-- Header -->
+  <div class="mx-auto flex max-w-5xl items-center justify-between p-4">
+    <a href="/"><img src="/logo_banner_lang.png" alt="BSG100jaar Logo" class="h-24" /></a>
+  </div>
+
+  <!-- Hero / Banner -->
+  <section class="relative h-60 bg-cover bg-center" style="background-image: url('/header.png')">
+    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+      <div class="flex space-x-4">
+        {#each data.pages as pageItem}
+          <a
+            class="rounded-lg px-6 py-2 text-xl font-bold
+          {path === pageItem.path ? 'bg-yellow-400 text-black' : 'bg-red-600 text-white'}"
+            href={pageItem.path}
+          >
+            {pageItem.title}
+          </a>
+        {/each}
+      </div>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <main class="mx-auto mt-8 max-w-4xl px-4 pb-4">
+    <slot></slot>
+  </main>
+
+  <div class="border-t-2 border-t-neutral-content py-2 text-center">
+    © Brabants Studenten Gilde | 2025-heden |
+    <a href="https://github.com/rubenuijtdewilligen/bsg100jaar.nl" class="link" target="_blank">
+      <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Broncode
+    </a>
+  </div>
+</div>

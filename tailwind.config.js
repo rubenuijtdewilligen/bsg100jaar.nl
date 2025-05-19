@@ -15,12 +15,12 @@ export default {
           ...require('daisyui/src/theming/themes')['[data-theme=corporate]'],
           primary: '#ff0000',
           black: '#000000',
-          darkgray: '#1a1a1a',
+          'neutral-content': '#1a1a1a',
           yellow: '#ff9800',
           lightyellow: '#f4c983',
           green1: '#5f8670',
           green2: '#5b6d5b',
-          background: '#fefdf8',
+          neutral: '#fefdf8',
           white: '#ffffff'
         }
       }

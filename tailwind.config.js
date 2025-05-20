@@ -3,7 +3,12 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
 
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        heading: ['"Rubik"', 'sans-serif'],
+        body: ['"Lato"', 'sans-serif']
+      }
+    }
   },
 
   plugins: [require('daisyui')],

@@ -61,7 +61,7 @@
           <a
             class="btn border-0 font-bold lg:btn-lg {path === pageItem.path
               ? 'bg-yellow-400 text-black hover:bg-yellow-400'
-              : 'bg-red-600 text-white hover:bg-red-700'}"
+              : 'bg-primary text-white hover:bg-red-600'}"
             href={pageItem.path}
           >
             {pageItem.title}

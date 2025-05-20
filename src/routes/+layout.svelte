@@ -5,6 +5,7 @@
   import { config } from '@fortawesome/fontawesome-svg-core';
   import '@fortawesome/fontawesome-svg-core/styles.css';
   import { page } from '$app/stores';
+  import { Toaster } from 'svelte-french-toast';
 
   config.autoAddCss = false;
 
@@ -33,6 +34,8 @@
     rel="stylesheet"
   />
 </svelte:head>
+
+<Toaster />
 
 <div class="m-0 bg-neutral p-0 text-neutral-content md:mx-32 md:rounded-xl lg:mx-48">
   <!-- Header -->

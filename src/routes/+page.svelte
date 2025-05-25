@@ -4,7 +4,8 @@
 
 <p class="my-2">
   De voorbereidingen voor ons 100-jarige bestaan zijn in volle gang, de lèmpkes worden ingedraaid.
-  De Lucie (de lustrumcommissie) is verheugd jullie te laten weten dat we op 6 juni 2026 in Oirschot
+  De Lucie (de lustrumcommissie) is verheugd jullie te laten weten dat we op <b>6 juni 2026</b> in
+  <b>Oirschot</b>
   ons 20e lustrum gaan vieren!
 </p>
 <p class="my-2">

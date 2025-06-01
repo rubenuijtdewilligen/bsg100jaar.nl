@@ -13,7 +13,7 @@
   voorafgaand aan het lustrum een lustrumjaar plaatsvinden. Gedurende dit jaar kan iedereen die dat
   wil iets organiseren of maken ter ere van het lustrum. Met de creatieve geest waar menig BSG'er om
   bekend staat, als het gaat om de invulling van activiteiten, kan dit niet anders dan een spektakel
-  worden! Het hoeft niet grootst te zijn. Samen buurten, herinneringen maken en proosten. Dat is het
+  worden! Het hoeft niet groots te zijn. Samen buurten, herinneringen maken en proosten. Dat is het
   belangrijkste.
 </p>
 

@@ -43,8 +43,8 @@
 <p class="mb-3">We luiden de avond in met een gezellige borrel en heerlijk diner.</p>
 <h3 class="text-lg font-bold">20.00 – 01.30 uur – Feest!</h3>
 <p class="mb-3">
-  Het feest barst los in de feestzaal van De Beurs met <b>coverband Hotsho</b> en een <b>DJ</b>. De
-  voetjes-van-de-vloer-cie kan weer shinen!
+  Het feest barst los in de feestzaal van De Beurs met <b>coverband HOTSHOT!</b> en een <b>DJ</b>.
+  De voetjes-van-de-vloer-cie kan weer shinen!
 </p>
 
 <h3 class="text-xl font-bold underline">Blijven slapen?</h3>
@@ -92,9 +92,8 @@ Geen zin om naar huis te rijden? Geen probleem!
 <h2 class="text-xl font-bold underline">
   PROOST op 100 jaar BSG: Daar moet (vaker) op gedronken worden!
 </h2>
-Omdat 100 jaar BSG vaker gevierd mag worden, zijn drie reünisten en één lid in januari de<b
-  >dorpsbrouwerij van Terheijden</b
->
+Omdat 100 jaar BSG vaker gevierd mag worden, zijn drie reünisten en één lid in januari de
+<b>dorpsbrouwerij van Terheijden</b>
 ingedoken. Het resultaat: een exclusief <b>donker bier (±7,5%)</b>, speciaal gebrouwen voor dit
 jubileum. Je kunt dit bier kopen bij je opgave. De flessen (<b>75 cl</b>) ontvang je op
 <b>6 juni</b>, zodat je later thuis nog eens kunt proosten op <b>100 jaar BSG</b>.

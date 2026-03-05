@@ -1,7 +1,8 @@
 <script>
   import '../app.css';
   import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
-  import { faArrowUpRightFromSquare, faLink } from '@fortawesome/free-solid-svg-icons';
+  import { faArrowUpRightFromSquare, faSpinner } from '@fortawesome/free-solid-svg-icons';
+  import { navigating } from '$app/stores';
   import { config } from '@fortawesome/fontawesome-svg-core';
   import '@fortawesome/fontawesome-svg-core/styles.css';
   import { page } from '$app/stores';
@@ -73,6 +74,15 @@
 
   <!-- Content -->
   <main class="mx-auto mt-8 max-w-4xl px-4 pb-4">
+    {#if $navigating}
+      <div
+        class="absolute inset-0 z-50 flex flex-col items-center justify-center bg-neutral/80 backdrop-blur-sm"
+      >
+        <FontAwesomeIcon icon={faSpinner} class="animate-spin text-5xl text-primary" />
+        <p class="mt-4 font-bold text-white">Laden...</p>
+      </div>
+    {/if}
+
     <slot></slot>
   </main>
 

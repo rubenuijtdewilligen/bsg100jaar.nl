@@ -1,20 +1,22 @@
 export async function load({ fetch }) {
   const url =
-    'https://script.google.com/macros/s/AKfycbyekye6VJ-bxYj61S89PFMjQO06ebaEUZhI9GvU7IW4-0Hs-TWRa1taNs1PY2LARjMFIA/exec';
+    'https://script.google.com/macros/s/AKfycbyvd_Dn1jXJ0NRJvtG174XakrshoLD1bccH1lVeAhpmkpGr6GfS-ofkFyamTGf-n_wU/exec';
 
   try {
     const response = await fetch(url);
     const data = await response.json();
 
     const aanmeldingen = data
-      .filter((item) => item.name)
-      .sort((a, b) => {
-        return a.name.localeCompare(b.name, 'nl', { sensitivity: 'base' });
-      });
+      .filter((item) => item.Voornaam)
+      .map((item) => ({
+        naam: item.Voornaam,
+        woonplaats: item.uit || '',
+        jaar: item.jaar || ''
+      }))
+      .sort((a, b) => a.naam.localeCompare(b.naam, 'nl', { sensitivity: 'base' }));
 
     return { aanmeldingen };
-  } catch (error) {
-    console.error('Fout bij laden aanmeldingen:', error);
+  } catch {
     return { aanmeldingen: [], error: 'Kon de lijst niet laden.' };
   }
 }

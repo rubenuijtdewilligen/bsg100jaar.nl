@@ -8,12 +8,6 @@
 
 <div class="mb-8 text-center">
   <h1 class="text-3xl font-bold">Wie zijn erbij?</h1>
-  {#if aanmeldingen}
-    <p class="mt-2 text-lg opacity-80">
-      Al <span class="font-bold text-yellow-400">{aanmeldingen.length}</span> aanmeldingen voor het feest
-      van de eeuw!
-    </p>
-  {/if}
 </div>
 
 {#if error}
@@ -33,19 +27,28 @@
   <div
     class="mx-auto flex max-w-2xl flex-col overflow-hidden rounded-xl border border-white/10 bg-white/5 shadow-lg"
   >
-    {#each aanmeldingen as aanmelding, i}
+    {#each aanmeldingen as aanmelding, i (i)}
       <div
-        class="flex items-center gap-4 p-4 {i !== aanmeldingen.length - 1
+        class="flex items-center justify-between gap-4 p-4 {i !== aanmeldingen.length - 1
           ? 'border-b border-white/10'
           : ''} transition-colors hover:bg-white/10"
       >
-        <span class="text-lg font-medium leading-tight">{aanmelding.name}</span>
+        <div class="flex flex-col">
+          <span class="text-lg font-medium leading-tight">{aanmelding.naam}</span>
+          {#if aanmelding.jaar}
+            <span class="text-xs text-primary opacity-50">Lid geworden in {aanmelding.jaar}</span>
+          {/if}
+        </div>
+
+        {#if aanmelding.woonplaats}
+          <span class="text-sm italic opacity-60">uit {aanmelding.woonplaats}</span>
+        {/if}
       </div>
     {/each}
   </div>
 {/if}
 
-<div class="mb-6 flex flex-col items-center border-t border-white/20 pt-8">
+<div class="mb-6 mt-2 flex flex-col items-center border-t border-white/20 pt-8">
   <p class="mb-4 text-center font-bold italic opacity-90">Staat jouw naam hier nog niet tussen?</p>
   <a
     href="https://events.flextickets.nl/event/bsg-100-jaar"

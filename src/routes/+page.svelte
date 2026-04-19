@@ -21,12 +21,15 @@
 <h3 class="text-lg font-bold">10:30 - Officiële opening</h3>
 <p class="mb-3">
   We starten in de <b>Kerk van Oirschot</b> met een feestelijke opening, met onder andere
-  gedeputeerde Dhr van Gruijthuijsen van Provincie Brabant. Journalist <b>Paul Spapens</b> neemt ons
+  gedeputeerde mevrouw Hagar Roijackers van Provincie Brabant. Journalist <b>Paul Spapens</b> neemt ons
   op levendige wijze mee naar de vroege jaren van BSG, waarin tijdens de Paaskampen in diverse Brabantse
   dorpen sociografische onderzoeken uitgevoerd zijn. De opening is voor iedereen toegankelijk.
 </p>
 
-<h3 class="text-lg font-bold">12.30 - Naar de Beurs & lunch</h3>
+<img src="hagar.jpg" alt="Mevrouw Hagar Roijackers" class="w-1/2 rounded-lg" />
+<small class="italic">mevrouw Hagar Roijackers</small>
+
+<h3 class="mt-4 text-lg font-bold">12.30 - Naar de Beurs & lunch</h3>
 <p>
   Met alle BSG leden en reünisten verplaatsen we ons naar <b>De Beurs</b> (op 100 meter), onze uitvalsbasis
   voor de rest van de dag.
@@ -103,4 +106,9 @@ jubileum. Je kunt dit bier kopen bij je opgave. De flessen (<b>75 cl</b>) ontvan
     href="https://events.flextickets.nl/event/bsg-100-jaar"
     class="btn btn-primary btn-lg text-white">TICKETS!</a
   >
+</div>
+
+<div class="mt-4 flex flex-col items-center">
+  <img src="ufw.jpg" alt="UFW" class="w-1/3 rounded-lg" />
+  <p>Dit evenement wordt mede ondersteund door het KLV fonds.</p>
 </div>

@@ -21,13 +21,26 @@
 <h3 class="text-lg font-bold">10:30 - Officiële opening</h3>
 <p class="mb-3">
   We starten in de <b>Kerk van Oirschot</b> met een feestelijke opening, met onder andere
-  gedeputeerde mevrouw Hagar Roijackers van Provincie Brabant. Journalist <b>Paul Spapens</b> neemt ons
-  op levendige wijze mee naar de vroege jaren van BSG, waarin tijdens de Paaskampen in diverse Brabantse
-  dorpen sociografische onderzoeken uitgevoerd zijn. De opening is voor iedereen toegankelijk.
+  gedeputeerde mevrouw <b>Hagar Roijackers</b> van Provincie Brabant. Journalist <b>Paul Spapens</b>
+  neemt ons op levendige wijze mee naar de vroege jaren van BSG, waarin tijdens de Paaskampen in diverse
+  Brabantse dorpen sociografische onderzoeken uitgevoerd zijn. De opening is voor iedereen toegankelijk.
+</p>
+<p class="mb-3">
+  Rondom 6 juni zal een tijdelijke expositie in Museum de Vier Quartieren ingericht worden met
+  documenten, foto's en attributen gerelateerd aan het BSG van de afgelopen eeuw en het Brabantse
+  leven van weleer.
 </p>
 
-<img src="hagar.jpg" alt="Mevrouw Hagar Roijackers" class="w-1/2 rounded-lg" />
-<small class="italic">mevrouw Hagar Roijackers</small>
+<div class="flex flex-col gap-8 md:flex-row">
+  <div>
+    <img src="hagar.jpg" alt="Mevrouw Hagar Roijackers" class="max-h-96 rounded-lg" />
+    <small class="italic">mevrouw Hagar Roijackers</small>
+  </div>
+  <div>
+    <img src="paul.jpg" alt="Mevrouw Hagar Roijackers" class="max-h-96 rounded-lg" />
+    <small class="italic">Paul Spapens. Foto: Christel Droevendans.</small>
+  </div>
+</div>
 
 <h3 class="mt-4 text-lg font-bold">12.30 - Naar de Beurs & lunch</h3>
 <p>
@@ -46,8 +59,8 @@
 <p class="mb-3">We luiden de avond in met een gezellige borrel en heerlijk diner.</p>
 <h3 class="text-lg font-bold">20.00 – 01.30 uur – Feest!</h3>
 <p class="mb-3">
-  Het feest barst los in de feestzaal van De Beurs met <b>coverband HOTSHOT!</b> en een <b>DJ</b>.
-  De voetjes-van-de-vloer-cie kan weer shinen!
+  Het feest barst los in de feestzaal van De Beurs met coverband <b>HOTSHOT!</b> en
+  <b>DJ Rupiler</b>. De voetjes-van-de-vloer-cie kan weer shinen!
 </p>
 
 <h3 class="text-xl font-bold underline">Blijven slapen?</h3>
@@ -110,5 +123,5 @@ jubileum. Je kunt dit bier kopen bij je opgave. De flessen (<b>75 cl</b>) ontvan
 
 <div class="mt-4 flex flex-col items-center">
   <img src="ufw.jpg" alt="UFW" class="w-1/3 rounded-lg" />
-  <p>Dit evenement wordt mede ondersteund door het KLV fonds.</p>
+  <p>De feestelijke opening en expositie worden mede ondersteund door het KLV fonds.</p>
 </div>

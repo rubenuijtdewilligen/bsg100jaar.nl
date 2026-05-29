@@ -52,7 +52,7 @@
 <h3 class="text-lg font-bold">14.00 uur – Middagactiviteiten</h3>
 <p class="mb-3">
   De middag bestaat uit twee delen, verveling is uitgesloten. Voor ieder wat wils: van <b
-    >rikken tot een stadswandeling</b
+    >rikken tot een dorpswandeling</b
   >. Natuurlijk ontbreekt ook het <b>Ruure en Pruuve</b> niet.
 </p>
 <h3 class="text-lg font-bold">17.00 uur – Borrel & diner</h3>
